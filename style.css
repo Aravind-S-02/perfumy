@@ -1,8 +1,8 @@
 
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 
 nav{
     color: white;background-color: black;
@@ -38,6 +38,8 @@ input{
     text-align: center;
 }
 .box{
+    background-color: black;
+    color: white;
     border-color: black;
     border-width: 2px;
     border-style: solid;
@@ -54,9 +56,12 @@ p{
 }
 
 .box:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     cursor: pointer;
+    border-color: black;
+    border-width: 3px;
+    border-style:double;
 }
 .about{
     text-align: center;
@@ -72,4 +77,10 @@ p{
 }
 h4{
     text-align: center;
+}
+
+.back{
+    background-image: url(taj-mahal-2.jpg);
+    background-size: cover;
+    
 }
